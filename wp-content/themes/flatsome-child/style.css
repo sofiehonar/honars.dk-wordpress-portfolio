@@ -1,0 +1,177 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 1.1
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/*Accordion*/
+.adhdAccordion {
+    color:white;
+}
+
+/*googlefont*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/*manuelfont*/
+@font-face {
+  font-family: ElliotSix;
+  src: url(http://honars.dk/wordpress-portfolio/wp-content/themes/flatsome-child/fonts/ElliotSix-webfont.ttf);
+  font-weight: normal;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*Menu*/
+.menuItem
+{
+    font-size:2.5vw;
+    font-family:ElliotSix;
+}
+
+.menuLogo {
+    opacity: 40%;
+}
+
+.img.has-hover.x0.md-x0.lg-x0.y100.md-y100.lg-y100 {
+    opacity: 20%;
+}
+
+/*Headlines 1*/
+
+.button.primary.is-underline.menuItem {
+    color: #60414B;
+}
+
+.sliderHeader1{
+    font-size:3vw;
+}
+
+/*Headlines 2*/
+.sliderHeader2 {
+    font-size:4vw;
+}
+
+/*Headlines 3, 4*/
+.sliderHeader3, .sliderHeader4{
+    font-family: 'Lato', sans-serif;
+    font-size: 4vw;
+    color: white;
+    text-align: right;
+}
+
+.sliderHeader4 {
+    text-decoration: line-through;
+}
+
+/*Headlines 5*/
+
+.sliderHeader5 {
+    font-size:4.5vw;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Headlines h2*/
+.who1 {
+    font-size:4vw;
+    color:#EF5A5A;
+}
+
+.who2 {
+    font-size:4vw;
+    color:#EF5A5A;
+}
+
+/*Animation ko: https://animista.net/play/entrances/slide-in*/
+
+.slide-in-top {
+	-webkit-animation: slide-in-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: slide-in-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/**
+ * ----------------------------------------
+ * animations from Animista.net
+ * ----------------------------------------
+ */
+ 
+/*Ko Animation Fall*/
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Ko Animation Wobble*/
+
+/*Skills Animation*/
+.scale-in-hor-left {
+	-webkit-animation: scale-in-hor-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+	        animation: scale-in-hor-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+@-webkit-keyframes scale-in-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
